@@ -1,0 +1,116 @@
+body{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+#root{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar{
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: end;
+    border-bottom: 3px solid rgba(248, 248, 248, 0.383);
+
+}
+
+.navbar img{
+    height: 30px;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    flex-direction: column;
+    margin-bottom: 0;
+
+}
+
+
+
+.HeadeText {
+    width: 100%;
+    color: black;
+    margin-top: 0;
+}
+
+
+.Card {
+    position: relative;  
+    margin: 30px;
+}
+
+.imageDiv img {
+    display: block;
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.soldOutText {
+    position: absolute;
+    top: 3%;
+    left: 4%;
+    border-radius: 3px;
+    margin: 0;
+    padding: 5px;
+    background-color: white;
+    color: black;
+   
+    font-size: 14px; 
+}
+
+.cardReviews{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.cardReviews img{
+    height: 15px;
+}
+
+.review2{
+    color: #00000053;
+    padding: 0;
+    margin: 0;
+}
+
+.review1{
+    padding: 0;
+    margin: 0;
+}
+
+.cardReviews{
+    padding: .75rem .75rem 0px 0px;
+}
+
+.cardDescriptionTittle{
+    font-weight: 100;
+    font-size: .9375rem;
+    padding: .5rem .5rem 0rem 0rem;
+    margin: 0;
+}
+
+.cardDescription{
+    padding: .5rem .5rem 0rem 0rem;
+    margin: 0;
+}
+
+
+.cardsDiv{
+    display: flex;
+    overflow: scroll;
+}
